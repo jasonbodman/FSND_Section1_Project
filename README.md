@@ -10,9 +10,9 @@ This project requires and utilizes Python 2.x
 
 ## Included Files
 This repository contains the following documents:
--media.py: This file outlines the Movie class referenced in hp_series.py
--hp_series.py: This is the main python script to run the project
--fresh_tomatoes.py: this converts the hp_series.py file into a webpage
+<ul><li>media.py: This file outlines the Movie class referenced in hp_series.py
+<li>hp_series.py: This is the main python script to run the project
+<li>fresh_tomatoes.py: this converts the hp_series.py file into a webpage</ul>
 
 ## How to Run Project
 Download and unpack the .zip file or clone/fork this repository to your local working directory.
