@@ -115,6 +115,7 @@ main_page_content = '''
     <div class="container">
       {movie_tiles}
     </div>
+    <p align="center">This project is part of my coursework as a student in Udacity's <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004">Full Stack Web Developer Nanodegree Program</a>. Please provide any feedback via my <a href="http://www.github.com/jasonbodman">GitHub profile</a>. Thank you!
   </body>
 </html>
 '''
