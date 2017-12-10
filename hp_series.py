@@ -21,3 +21,4 @@ hp7_2 = media.Movie("Harry Potter and the Deathly Hollows: Part 2", "A clash bet
 
 #Create list of all instances in the series.
 movies = [hp1, hp2, hp3, hp4, hp5, hp6, hp7_1, hp7_2]
+fresh_tomatoes.open_movies_page(movies)
