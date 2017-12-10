@@ -14,3 +14,17 @@ This repository contains the following documents:
 -hp_series.py: This is the main python script to run the project
 -fresh_tomatoes.py: this converts the hp_series.py file into a webpage
 
+## How to Run Project
+Download and unpack the .zip file or clone/fork this repository to your local working directory.
+
+Open your appropriate text-based interface for your operating system (Command prompt for Windows and Terminal for Mac).
+
+Navigate to the location of the downloaded files using cd .../.../
+
+Run the code by typing the following command:
+`python hp_series.py`
+
+Your default browser should launch and a new tab should display the Harry Potter Film info website.
+
+## Miscellaneous
+This README.md file is based off of a template that was provided by user PhillipCoach, Udacity Course Director, on the <a href="https://discussions.udacity.com/t/readme-files-in-project-1/23524/2">Udacity Discussion Forum</a>
