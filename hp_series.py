@@ -19,6 +19,9 @@ hp7_1 = media.Movie("Harry Potter and the Deathly Hollows: Part 1", "Without the
 
 hp7_2 = media.Movie("Harry Potter and the Deathly Hollows: Part 2", "A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.", "http://t3.gstatic.com/images?q=tbn:ANd9GcTgXSuLAFerQGZdPCWv8EHI_ucQq6RTl3xf91F4aN54PDA_oCtB", "https://www.youtube.com/watch?v=mObK5XD8udk")
 
+beasts = media.Movie("Fantastic Beasts and Where to Find Them", "The year is 1926, and Newt Scamander (Eddie Redmayne) has just completed a global excursion to find and document an extraordinary array of magical creatures. Arriving in New York for a brief stopover, he might have come and gone without incident, were it not for a No-Maj (American for Muggle) named Jacob, a misplaced magical case, and the escape of some of Newt's fantastic beasts, which could spell trouble for both the wizarding and No-Maj worlds.", "http://t3.gstatic.com/images?q=tbn:ANd9GcTjr1HJSeba_PuPr9f8eWrr6ldbqSP22tGjGQ5tvfwH6B02jIon", "https://www.youtube.com/watch?v=ViuDsy7yb8M")
+
+grindelwald = media.Movie("Fantastic Beasts: The Crimes of Grindelwald", "<i><b>Coming Soon!</b><br>Magizoologist Newt Scamander joins forces with wizard Albus Dumbledore to battle the devious Gellert Grindelwald in 1920s Paris.</i>", "http://t0.gstatic.com/images?q=tbn:ANd9GcTjniPNSC0Dpg0LBc56hO1c4aeyCNKkNijl-6kYH4fYacmSqCBY", "https://www.youtube.com/watch?v=x6SioXmI8do")
 #Create list of all instances in the series.
-movies = [hp1, hp2, hp3, hp4, hp5, hp6, hp7_1, hp7_2]
+movies = [hp1, hp2, hp3, hp4, hp5, hp6, hp7_1, hp7_2, beasts, grindelwald]
 fresh_tomatoes.open_movies_page(movies)
