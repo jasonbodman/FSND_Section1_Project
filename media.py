@@ -1,14 +1,17 @@
+""" This file outlines the class Movie. """
+
 import webbrowser
 
-#Create class Movie, including title, storyline, poster, and trailer for each instance.
+# Create class Movie with basic data for each instance.
+
+
 class Movie():
-    """ This class provides a way to store movie related information"""
-    
-    def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+    def __init__(self, movie_title, movie_storyline, poster_image,
+                 trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
-        
+
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
