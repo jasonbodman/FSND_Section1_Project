@@ -19,7 +19,7 @@ Download and unpack the .zip file or clone/fork this repository to your local wo
 
 Open your appropriate text-based interface for your operating system (Command prompt for Windows and Terminal for Mac).
 
-Navigate to the location of the downloaded files using cd .../.../
+Navigate to the location of the downloaded files using the command `cd .../.../` and replacing `.../.../` with the file path to the package in the local working directory.
 
 Run the code by typing the following command:
 `python hp_series.py`
